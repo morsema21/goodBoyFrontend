@@ -1,0 +1,140 @@
+/* Ensure the parent container takes up the full width */
+.page-container {
+  display: flex; /* Use flexbox layout */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically if needed */
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height (if vertical centering is needed) */
+  padding: 0; /* Reset any padding */
+  margin: 0; /* Reset any margin */
+}
+
+/* Form container styling */
+.post {
+  max-width: 600px; /* Limit the width */
+  width: 100%; /* Make it responsive */
+  padding: 1rem; /* Padding inside the container */
+  background-color: #f8f9fa; /* Background color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  margin: 0; /* Reset any margin */
+}
+
+/* Heading styling */
+.post h2 {
+  font-size: 2rem; /* Font size */
+  margin-bottom: 1rem; /* Space below the heading */
+  color: #343a40; /* Heading color */
+}
+
+/* Form styling */
+.post-form {
+  display: flex; /* Flexbox for form layout */
+  flex-direction: column; /* Stack elements vertically */
+}
+
+/* Label styling */
+.post-form label {
+  display: block; /* Block display */
+  font-weight: bold; /* Bold text */
+  margin-bottom: 0.5rem; /* Space below labels */
+  color: #495057; /* Label color */
+}
+
+/* Input styling */
+.input-post {
+  width: 100%; /* Full width of the container */
+  padding: 0.75rem; /* Padding inside input */
+  border: 1px solid #ced4da; /* Border color */
+  border-radius: 4px; /* Rounded corners */
+  box-sizing: border-box; /* Include padding in width */
+  font-size: 1rem; /* Font size */
+  margin-bottom: 1rem; /* Space between inputs */
+}
+
+/* Input focus styling */
+.input-post:focus {
+  border-color: #80bdff; /* Border color on focus */
+  outline: none; /* Remove outline */
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25); /* Focus shadow */
+}
+
+/* Message styling */
+.post-form p {
+  margin-top: 1rem; /* Space above messages */
+  color: #dc3545; /* Error message color */
+}
+
+/* Button styling */
+.button-confirm {
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none; /* Remove default border */
+  padding: 0.75rem 1.5rem; /* Button padding */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 1rem; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  margin-top: 1rem; /* Space above button */
+}
+
+/* Button hover styling */
+.button-confirm:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}
+/* Container for the post update section */
+.post-update {
+  max-width: 800px; /* Maximum width of the container */
+  margin: 2rem auto; /* Center container horizontally with some vertical margin */
+  padding: 2rem; /* Padding inside the container */
+  background-color: #f8f9fa; /* Light background color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Heading styling */
+.post-update h1 {
+  font-size: 2.5rem; /* Font size for the title */
+  margin-bottom: 1rem; /* Space below the title */
+  color: #343a40; /* Dark color for the title */
+}
+
+/* Post body styling */
+.post-body {
+  font-size: 1.125rem; /* Font size for the content */
+  line-height: 1.6; /* Line height for better readability */
+  margin-bottom: 1.5rem; /* Space below the content */
+  color: #495057; /* Darker text color for the content */
+}
+
+/* Time styling */
+.post-time {
+  font-size: 0.875rem; /* Smaller font size for time */
+  color: #6c757d; /* Gray color for time text */
+  margin-bottom: 0.5rem; /* Space below time text */
+}
+
+/* Container for buttons */
+.button-container {
+  display: flex; /* Use flexbox for layout */
+  gap: 1rem; /* Space between buttons */
+  justify-content: center; /* Center buttons horizontally */
+  margin-top: 1.5rem; /* Space above button container */
+}
+
+/* Button styling */
+.button-post {
+  background-color: #007bff; /* Blue background color */
+  color: #fff; /* White text color */
+  border: none; /* Remove default border */
+  padding: 0.75rem 1.5rem; /* Padding inside button */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 1rem; /* Font size for button text */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+/* Button hover styling */
+.button-post:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
